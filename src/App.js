@@ -9,6 +9,7 @@ function App() {
       <p className="text-gray-500 text-lg">
         React and Tailwind CSS in action
       </p>
+      <p>but it will never work ...</p>
     </div>
   );
 }
