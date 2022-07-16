@@ -21,3 +21,15 @@ The files `tailwind.config.js`, `src/index.css` & `src/App.js` are editted from 
 > https://medium.com/codingthesmartway-com-blog/how-to-use-tailwind-css-with-react-9dd78bbdc0e0
 
 run the app as normal with `npm start`
+
+### vscode plugins
+
+the following vscode plugins may be of use if using that particular editor :
+
+```
+csstools.postcss
+bradlc.vscode-tailwindcss
+Prettier - Code formatte
+Auto Rename Tag
+```
+
