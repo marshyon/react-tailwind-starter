@@ -13,14 +13,14 @@ import Invoices from './routes/invoices';
 function App() {
   return (
     <>
-      <ul class="flex">
-        <li class="mr-6">
+      <ul className="flex">
+        <li className="mr-6">
           <Link className="text-blue-500 hover:text-blue-800" to="/">Home</Link>
         </li>
-        <li class="mr-6">
+        <li className="mr-6">
           <Link className="text-blue-500 hover:text-blue-800" to="/Expenses">Expenses</Link>
         </li>
-        <li class="mr-6">
+        <li className="mr-6">
           <Link className="text-blue-500 hover:text-blue-800" to="/Invoices">Invoices</Link>
         </li>
       </ul>
