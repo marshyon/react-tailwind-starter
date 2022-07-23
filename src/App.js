@@ -5,8 +5,8 @@ import {
   Route
 } from "react-router-dom";
 
-import Home from './pages/home';
-import Expenses from './routes/expenses';
+import Home from './routes/home';
+import SimpleComponent from './routes/SimpleComponent';
 import Invoices from './routes/invoices';
 
 
@@ -18,7 +18,7 @@ function App() {
           <Link className="text-blue-500 hover:text-blue-800" to="/">Home</Link>
         </li>
         <li className="mr-6">
-          <Link className="text-blue-500 hover:text-blue-800" to="/Expenses">Expenses</Link>
+          <Link className="text-blue-500 hover:text-blue-800" to="/simple-component">Simple Component</Link>
         </li>
         <li className="mr-6">
           <Link className="text-blue-500 hover:text-blue-800" to="/Invoices">Invoices</Link>
@@ -26,17 +26,10 @@ function App() {
       </ul>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="expenses" element={<Expenses />} />
+        <Route path="simple-component" element={<SimpleComponent />} />
         <Route path="invoices" element={<Invoices />} />
       </Routes>
     </>
   );
 }
 export default App;
-
-
-// <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="expenses" element={<Expenses />} />
-//         <Route path="invoices" element={<Invoices />} />
-//       </Routes>
