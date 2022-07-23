@@ -40,3 +40,4 @@ release notes
 | v0.0.1 | initial version with simple page                                         |
 | v0.0.2 | addition of react-router-dom V6 with home and 2 other pages + navigation |
 | v0.0.3 | addition of a simple component                                           |
+| v0.0.4 | basic configuration using tailwind.config.js                             |
