@@ -1,18 +1,42 @@
 import './App.css';
+import {
+  Link,
+  Routes,
+  Route
+} from "react-router-dom";
+
+import Home from './pages/home';
+import Expenses from './routes/expenses';
+import Invoices from './routes/invoices';
+
 
 function App() {
   return (
-    <div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
-      <p className="text-3xl text-gray-700 font-bold mb-5">
-        Welcome!
-      </p>
-      <p className="text-gray-500 text-lg">
-        React and Tailwind CSS in action
-      </p>
-      <p>but it will never work ...</p>
-    </div>
+    <>
+      <ul class="flex">
+        <li class="mr-6">
+          <Link className="text-blue-500 hover:text-blue-800" to="/">Home</Link>
+        </li>
+        <li class="mr-6">
+          <Link className="text-blue-500 hover:text-blue-800" to="/Expenses">Expenses</Link>
+        </li>
+        <li class="mr-6">
+          <Link className="text-blue-500 hover:text-blue-800" to="/Invoices">Invoices</Link>
+        </li>
+      </ul>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="expenses" element={<Expenses />} />
+        <Route path="invoices" element={<Invoices />} />
+      </Routes>
+    </>
   );
 }
 export default App;
 
 
+// <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="expenses" element={<Expenses />} />
+//         <Route path="invoices" element={<Invoices />} />
+//       </Routes>
