@@ -33,3 +33,9 @@ Prettier - Code formatte
 Auto Rename Tag
 ```
 
+release notes
+
+| tag    | note                                                                     |
+|--------|--------------------------------------------------------------------------|
+| v0.0.1 | initial version with simple page                                         |
+| v0.0.2 | addition of react-router-dom V6 with home and 2 other pages + navigation |
