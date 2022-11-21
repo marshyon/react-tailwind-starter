@@ -9,6 +9,9 @@
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="CC.svg"
+   inkscape:export-filename="/home/jon/projects/scratch/react-tailwind-layout/CC2.png"
+   inkscape:export-xdpi="67.904381"
+   inkscape:export-ydpi="67.904381"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -28,8 +31,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.61457161"
-     inkscape:cx="281.49689"
-     inkscape:cy="407.60099"
+     inkscape:cx="364.48153"
+     inkscape:cy="405.97384"
      inkscape:window-width="1366"
      inkscape:window-height="699"
      inkscape:window-x="0"
@@ -42,44 +45,40 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-38.70125,-67.615054)">
+     transform="translate(-38.701248,-62.148739)">
+    <rect
+       style="fill:#ffffff;stroke-width:0.429541;stroke-linecap:round"
+       id="rect27320"
+       width="200"
+       height="200"
+       x="38.701248"
+       y="62.148739"
+       ry="55.557938" />
     <g
-       id="g7670"
-       transform="matrix(1.6251919,0,0,1.6251919,-24.195705,-42.27238)">
-      <rect
-         style="fill:#f9f9f9;stroke-width:0.264302;stroke-linecap:round"
-         id="rect7502"
-         width="123.06239"
-         height="123.06239"
-         x="38.701248"
-         y="67.615051"
-         ry="11.008876" />
-      <g
-         id="g7424"
-         transform="translate(1.5219788,38.767674)">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:107.212px;line-height:1.25;font-family:sans-serif;fill:#2affd5;fill-opacity:1;stroke:none;stroke-width:1.43587"
-           x="43.159534"
-           y="110.49833"
-           id="text1838"><tspan
-             sodipodi:role="line"
-             id="tspan1836"
-             style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:107.212px;font-family:Nunito;-inkscape-font-specification:'Nunito Ultra-Bold';fill:#2affd5;stroke-width:1.43587"
-             x="43.159534"
-             y="110.49833">C</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:107.212px;line-height:1.25;font-family:sans-serif;fill:#00d4aa;fill-opacity:1;stroke:none;stroke-width:1.43587"
-           x="79.60611"
-           y="145.84328"
-           id="text7202"><tspan
-             sodipodi:role="line"
-             id="tspan7200"
-             style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:107.212px;font-family:Nunito;-inkscape-font-specification:'Nunito Ultra-Bold';fill:#00d4aa;stroke-width:1.43587"
-             x="79.60611"
-             y="145.84328">C</tspan></text>
-      </g>
+       id="g27318"
+       transform="matrix(1.1307292,0,0,1.1307292,-4.1734003,-5.4749366)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:137.085px;line-height:1.25;font-family:sans-serif;fill:#005442;fill-opacity:1;stroke:none;stroke-width:1.83595"
+         x="94.57045"
+         y="227.21753"
+         id="text7202"><tspan
+           sodipodi:role="line"
+           id="tspan7200"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:137.085px;font-family:poppins;-inkscape-font-specification:'poppins Semi-Bold';fill:#005442;fill-opacity:1;stroke-width:1.83595"
+           x="94.57045"
+           y="227.21753">C</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:137.085px;line-height:1.25;font-family:sans-serif;fill:#3cd0b1;fill-opacity:1;stroke:none;stroke-width:1.83596"
+         x="54.916946"
+         y="166.60057"
+         id="text1838"><tspan
+           sodipodi:role="line"
+           id="tspan1836"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:137.085px;font-family:poppins;-inkscape-font-specification:'poppins Semi-Bold';fill:#3cd0b1;fill-opacity:1;stroke-width:1.83596"
+           x="54.916946"
+           y="166.60057">C</tspan></text>
     </g>
   </g>
 </svg>
