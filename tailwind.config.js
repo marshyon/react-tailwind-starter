@@ -11,8 +11,8 @@ module.exports = {
       xl: '1440px',
     },
     fontFamily: {
-      sans: ['Nunito'],
-      serif: ['Nunito'],
+      sans: ['Nunito', 'sans-serif'],
+      serif: ['Garamond'],
     },
     extend: {
       colors: {
@@ -28,5 +28,7 @@ module.exports = {
       },
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography')
+  ],
 }
